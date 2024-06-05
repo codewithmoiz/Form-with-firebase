@@ -55,7 +55,6 @@ function loginUser(e){
       text: `The user ${user.email} has been logged in successfully`,
       icon: "success"
     });
-    console.log(user)
   })
   .catch((error) => {
     const errorCode = error.code;

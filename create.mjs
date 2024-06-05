@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         setTimeout(() => {
           window.location.href = 'index.html';
         },3000)
-        console.log(user);
       })
       .catch((error) => {
         const errorCode = error.code;
